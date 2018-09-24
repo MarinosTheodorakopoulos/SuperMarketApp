@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:title="Αρχική" />
+        <item
+            android:id="@+id/login"
+            android:title="Σύνδεση" />
+
+        <item
+            android:id="@+id/lists"
+            android:title="Λίστες" />
+        <item
+
+            android:id="@+id/leaf"
+            android:title="Φυλλάδιο" />
+        <item
+            android:id="@+id/information"
+            android:title="Πληροφορίες" />
+        <item
+            android:id="@+id/map"
+            android:title="Χάρτης" />
+        <item
+            android:id="@+id/search"
+            android:title="Αναζήτηση" />
+
+
+
+    </group>
+
+</menu>

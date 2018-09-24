@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikos.papaapadakis.InformationActivity"
+    android:background="#ffffff">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Πληροφορίες"
+                android:id="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:textColor="#1A237E"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:singleLine="false"
+                android:soundEffectsEnabled="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ημερομηνία έναρξης: Ιδρύθηκε: 1 Δεκεμβρίου 2014"
+                android:id="@+id/textView"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Διεύθυνση: Ελ.Βενιζέλου, 70300 Αρκαλοχώρι"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ωράριο λειτουργίας: Δευ-Σαβ: 8:00 π.μ. - 9:00 μ.μ."
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Σύντομη περιγραφή Super Market Παπαδάκης σε συνεργασία με τα super markets INKA. Θα μας βρείτε στο δρόμο προς το Γάσι. Πρώην κατάστημα &quot;Ένωση&quot;."
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Αναλυτική περιγραφή Στο κατάστημά μας θα βρείτε μεγάλη ποικιλία από προϊόντα που εξυπηρετούν τις καθημερινές σας ανάγκες, σε ελκυστικές τιμές και όχι μόνο. Ανακαλύψτε Bonus προσφορές σε πολλά από τα προϊόντα μας, καθημερινά. Η οικονομία και η εξυπηρέτηση σας, είναι για εμάς προτεραιότητα."
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Πάρκινγκ δρόμος και Χώρος στάθμευσης"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Τηλέφωνο 28910-23023"
+                android:id="@+id/textView9"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
